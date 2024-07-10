@@ -4,7 +4,9 @@
       <div class="grid grid-cols-12">
         <div class="col-span-1 col-start-1">1 column</div>
 
-        <div class="col-span-5 col-start-2">1 column</div>
+        <div class="col-span-5 col-start-2">
+          <TheHeadline />
+        </div>
 
         <div class="col-span-5 col-start-7">1 column</div>
 
@@ -15,7 +17,12 @@
 </template>
 
 <script>
+import TheHeadline from '@/components/TheHeadline.vue'
+
 export default {
-  name: 'TheHero'
+  name: 'TheHero',
+  components: {
+    TheHeadline
+  }
 }
 </script>
