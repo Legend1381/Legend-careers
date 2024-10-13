@@ -2,7 +2,7 @@
   <section>
     <h1 class="mb-14 text-7xl font-bold tracking-tighter">
       <span :class="actionClasses">{{ action }}</span>
-      <br />for every one
+      <br />for everyone
     </h1>
     <h2 class="text-3xl font-light">find your next job at Legend corp.</h2>
   </section>
